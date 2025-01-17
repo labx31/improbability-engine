@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Improbability Engine</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="intro-screen" class="intro-overlay">
+    <div class="intro-content">
+      <h1>The Improbability Engine</h1>
+      <p class="intro-text">You are about to witness a sequence of increasingly impossible odds.
+         Each more astounding than the last.
+         Until we reach the most improbable event of all...</p>
+      <button id="begin-journey" class="begin-button">
+        <span class="button-text">Begin the Journey</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="progress-bar"></div>
+  
+  <main class="container">
+    <header class="site-header">
+      <h1>The Improbability Engine</h1>
+    </header>
+
+    <section id="probability-display" class="probability-card">
+      <div class="probability-content">
+        <div class="counter-wrapper">
+          <div class="counter">1 in <span id="counter">0</span></div>
+        </div>
+        <div class="description-wrapper">
+          <div id="event-description"></div>
+          <div id="scale-description" class="scale-text"></div>
+        </div>
+      </div>
+      <div class="card-decoration">
+        <div class="glow-effect"></div>
+      </div>
+    </section>
+
+    <div class="controls">
+      <button id="next-probability" class="pulse">
+        <span class="button-text">Keep going</span>
+        <div class="button-glow"></div>
+      </button>
+    </div>
+    
+    <div class="particles-container"></div>
+  </main>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
