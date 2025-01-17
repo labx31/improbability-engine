@@ -10,14 +10,14 @@ const probabilities = [
     scale: "A classic symbol of good fortune, four-leaf clovers are a rare but delightful find."
   },
   {
-    odds: 662n * 10n ** 3n,
-    description: "The odds of winning an Olympic medal",
-    scale: "A testament to exceptional skill, dedication, and a bit of luck."
-  },
-  {
     odds: 10n ** 4n,
     description: "The odds of being struck by lightning in your lifetime",
     scale: "Unfortunate, but really not that uncommon, when you think about it."
+  },
+    {
+    odds: 662n * 10n ** 3n,
+    description: "The odds of winning an Olympic medal",
+    scale: "A testament to exceptional skill, dedication, and a bit of luck."
   },
   {
     odds: 10n ** 9n,
