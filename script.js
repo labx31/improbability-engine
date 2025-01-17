@@ -5,9 +5,14 @@ const probabilities = [
     scale: "This might happen during a fun game with friends. Rare, but conceivable."
   },
   {
-    odds: 10n ** 3n,
-    description: "The odds of a meteorite crashing through your roof",
-    scale: "Right now, thousands of rocks from space are entering our atmosphere. Most burn up harmlessly. But occasionally, one makes it through..."
+    odds: 2n * 10n ** 3n,
+    description: "The odds of finding a four-leaf clover",
+    scale: "A classic symbol of good fortune, four-leaf clovers are a rare but delightful find."
+  },
+  {
+    odds: 662n * 10n ** 3n,
+    description: "The odds of winning an Olympic medal",
+    scale: "A testament to exceptional skill, dedication, and a bit of luck."
   },
   {
     odds: 10n ** 4n,
@@ -20,14 +25,14 @@ const probabilities = [
     scale: "Millions play, one wins. The rest of us keep dreaming..."
   },
   {
-    odds: 10n ** 12n,
-    description: "The odds of shuffling a deck of cards into the exact same order as another shuffled deck",
-    scale: "There are more possible card arrangements than seconds since Earth formed.<br>Every shuffle is likely the first time that exact order has ever existed in human history."
-  },
-  {
     odds: 10n ** 11n,
     description: "The odds of becoming a saint in the Catholic Church",
     scale: "A recognition of the rarest form of human exceptionalism. And yet, compared to what comes next, even this seems common..."
+  },
+  {
+    odds: 10n ** 12n,
+    description: "The odds of shuffling a deck of cards into the exact same order as another shuffled deck",
+    scale: "There are more possible card arrangements than seconds since Earth formed.<br>Every shuffle is likely the first time that exact order has ever existed in human history."
   },
   {
     odds: 10n ** 14n,
